@@ -40,6 +40,7 @@ header, .section1{
 .section1{
     display: flex;
     justify-content: space-evenly;
+    padding-bottom: 50px;
 }
 
 .section1text{
