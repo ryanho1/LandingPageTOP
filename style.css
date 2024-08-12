@@ -23,7 +23,6 @@ img{
     width:100px;
     max-width: 600px;
     height: 100px;
-    /* margin-right: 100px; */
 }
 
 header{
@@ -50,7 +49,7 @@ header, .section1{
 
 .warcat{
     width: 350px;
-    height: auto;
+    height: 350px;
 }
 
 .cta{
@@ -79,6 +78,11 @@ h2{
     font-weight: 900;
 }
 
+h3{
+    margin:0;
+    font-size: 30px;
+}
+
 .steps{
     display: flex;
     justify-content: center;
@@ -96,11 +100,13 @@ img[src="/home/hwj/Downloads/flexbox-images-449705/images/step1.jpg"], img[src="
 img[src="/home/hwj/Downloads/flexbox-images-449705/images/step3.jpg"], img[src="/home/hwj/Downloads/flexbox-images-449705/images/step4.jpg"]{
     border: 3px solid #3882F6;
     border-radius: 45px;
+    width: 200px;
+    height: auto;
 }
 
 .section3{
     display: flex;
-    background-color: rgb(212, 210, 210);
+    background-color: #E5E7EB;
     justify-content: center;
     flex-direction: column;
     font-style: italic;
@@ -125,4 +131,52 @@ img[src="/home/hwj/Downloads/flexbox-images-449705/images/step3.jpg"], img[src="
     padding: 0 0 120px 0;
     margin-right: 170px;
     font-weight: 900;
+}
+
+.maincta{
+    display: flex;
+    border-radius: 50px;
+    background-color: #3882F6;
+    justify-content:space-evenly;
+    height: 70%;
+    width: 100%;
+    align-items: center;
+}
+
+.cta2{
+    border-radius: 50px;
+    background-color: #ffffff;
+    font-weight: 800;
+    font-size: 19px;
+    width: 100px;
+    color: #3882F6;
+    margin-top: 25px;
+    border-color: aqua;
+    max-height: 50px;
+    align-self: center;
+    padding: 0;
+    margin: 0;
+}
+
+.box{
+    width: 75%;
+    height: 400px;
+    display: flex;
+    align-items: center;
+}
+
+.section4{
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+#footer{
+    background-color:#1f2397;
+    color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    height: 120px;
+    align-items: center;
+    font-size: 16px;
 }
