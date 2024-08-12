@@ -42,12 +42,33 @@ header, .section1{
     justify-content: space-evenly;
 }
 
+.section1text{
+    word-wrap: normal;
+    width: 800px;
+}
+
 .warcat{
     width: 300px;
     height: auto;
 }
 
+.cta{
+    border-radius: 50px;
+    background-color: #3882F6;
+    font-weight: 800;
+    font-size: 19px;
+    width: 100px;
+    color: white;
+}
+
 h1{
     font-size: 48px;
+    font-weight: 900;
+    margin-bottom: 0;
+}
+
+h2{
+    text-align: center;
+    font-size: 32px;
     font-weight: 900;
 }
