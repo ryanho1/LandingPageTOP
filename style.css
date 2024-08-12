@@ -63,6 +63,10 @@ header, .section1{
     margin-top: 25px;
 }
 
+.section2{
+    margin-bottom: 40px;
+}
+
 h1{
     font-size: 48px;
     font-weight: 900;
@@ -92,4 +96,33 @@ img[src="/home/hwj/Downloads/flexbox-images-449705/images/step1.jpg"], img[src="
 img[src="/home/hwj/Downloads/flexbox-images-449705/images/step3.jpg"], img[src="/home/hwj/Downloads/flexbox-images-449705/images/step4.jpg"]{
     border: 3px solid #3882F6;
     border-radius: 45px;
+}
+
+.section3{
+    display: flex;
+    background-color: rgb(212, 210, 210);
+    justify-content: center;
+    flex-direction: column;
+    font-style: italic;
+    /* width:80%; */
+}
+
+.testimonial{
+    word-wrap: normal;
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 150px 150px 0px 150px;
+}
+
+.t2{
+    font-size: 32px;
+    display: flex;
+    justify-content: flex-end;
+    padding: 0;
+    margin: 0;
+    padding: 0 0 120px 0;
+    margin-right: 170px;
+    font-weight: 900;
 }
